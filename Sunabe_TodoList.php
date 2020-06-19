@@ -24,11 +24,6 @@
         $_SESSION['data'] = $todoList;
         
         foreach($todoList as $list) {
-            // print_r($todoList);
-
-            // var_dump(implode($todoList));
-
-            // echo implode('<br>', $list);
 
             echo "<p>$list</p>";
         }
